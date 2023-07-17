@@ -78,8 +78,8 @@ a:active {
 	float: right;
 }
 .nav {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 	text-align: center;
 }
@@ -89,14 +89,14 @@ a:active {
 	font-size: var(--nav-item-font-size);
 	letter-spacing: var(--nav-item-letter-spacing);
 	display: var(--nav-item-display);
-	margin: var(--nav-item-marging);
+	margin: var(--nav-item-margin);
 }
 .nav .nav-link:hover {
 	color: var(--nav-item-link-hover);
 }
 .nav.nav-link {
 	display: block;
-	padding: .5rem, 1rem, .5rem, 1rem;
+	padding: 0.5rem, 1rem, 0.5rem, 1rem;
 }
 .section {
 	padding: var(--section-padding);
