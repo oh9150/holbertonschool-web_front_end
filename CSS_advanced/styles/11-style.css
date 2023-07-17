@@ -52,5 +52,5 @@ a {
 	color: var(--color-primary);
 	font-family: var(--font-familiy-title);
 	text-transform: var(--section-tagline-transform);
-	font-weight: font-weight-bold;
+	font-weight: var(--font-weight-bold);
 }
